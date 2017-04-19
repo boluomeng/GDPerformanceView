@@ -17,4 +17,5 @@ FOUNDATION_EXPORT const unsigned char GDPerformanceViewVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <GDPerformanceView/PublicHeader.h>
 #import <GDPerformanceView/GDPerformanceView.h>
 #import <GDPerformanceView/GDPerformanceMonitorProtocol.h>
+#import <GDPerformanceView/GDPerformanceMonitor.h>
 
