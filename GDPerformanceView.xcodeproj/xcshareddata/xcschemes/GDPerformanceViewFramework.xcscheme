@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4BC488FB1EA2221B003AC1CF"
-               BuildableName = "GDPerformanceView.framework"
-               BlueprintName = "GDPerformanceView"
+               BlueprintIdentifier = "4B211F1F1EA8493B00E4818D"
+               BuildableName = "GDPerformanceViewFramework.framework"
+               BlueprintName = "GDPerformanceViewFramework"
                ReferencedContainer = "container:GDPerformanceView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4BC488FB1EA2221B003AC1CF"
-            BuildableName = "GDPerformanceView.framework"
-            BlueprintName = "GDPerformanceView"
-            ReferencedContainer = "container:GDPerformanceView.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4BC488FB1EA2221B003AC1CF"
-            BuildableName = "GDPerformanceView.framework"
-            BlueprintName = "GDPerformanceView"
+            BlueprintIdentifier = "4B211F1F1EA8493B00E4818D"
+            BuildableName = "GDPerformanceViewFramework.framework"
+            BlueprintName = "GDPerformanceViewFramework"
             ReferencedContainer = "container:GDPerformanceView.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4BC488FB1EA2221B003AC1CF"
-            BuildableName = "GDPerformanceView.framework"
-            BlueprintName = "GDPerformanceView"
+            BlueprintIdentifier = "4B211F1F1EA8493B00E4818D"
+            BuildableName = "GDPerformanceViewFramework.framework"
+            BlueprintName = "GDPerformanceViewFramework"
             ReferencedContainer = "container:GDPerformanceView.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

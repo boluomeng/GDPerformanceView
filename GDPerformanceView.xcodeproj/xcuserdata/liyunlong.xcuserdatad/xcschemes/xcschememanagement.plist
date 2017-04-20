@@ -4,14 +4,19 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>GDPerformanceView.xcscheme_^#shared#^_</key>
+		<key>GDPerformanceViewFramework.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>4B211F1F1EA8493B00E4818D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>4BC488FB1EA2221B003AC1CF</key>
 		<dict>
 			<key>primary</key>

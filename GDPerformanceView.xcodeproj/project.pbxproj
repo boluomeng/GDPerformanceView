@@ -7,20 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4BC489001EA2221B003AC1CF /* GDPerformanceView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC488FE1EA2221B003AC1CF /* GDPerformanceView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BC489041EA2230F003AC1CF /* GDPerformanceMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = A53761591DB76D81000007B7 /* GDPerformanceMonitor.m */; };
-		4BC489051EA2230F003AC1CF /* GDPerformanceView.m in Sources */ = {isa = PBXBuildFile; fileRef = A537615B1DB76D81000007B7 /* GDPerformanceView.m */; };
-		4BC489061EA2230F003AC1CF /* GDMarginLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DAC0801DB7B1A600AF26E6 /* GDMarginLabel.m */; };
-		4BC489071EA2230F003AC1CF /* GDWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 427736891E2BD55100E59793 /* GDWindowViewController.m */; };
+		4B211F241EA8493B00E4818D /* GDPerformanceViewFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B211F221EA8493B00E4818D /* GDPerformanceViewFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B211F281EA8495E00E4818D /* GDPerformanceMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = A53761591DB76D81000007B7 /* GDPerformanceMonitor.m */; };
+		4B211F291EA8495E00E4818D /* GDPerformanceView.m in Sources */ = {isa = PBXBuildFile; fileRef = A537615B1DB76D81000007B7 /* GDPerformanceView.m */; };
+		4B211F2A1EA8495E00E4818D /* GDMarginLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DAC0801DB7B1A600AF26E6 /* GDMarginLabel.m */; };
+		4B211F2B1EA8495E00E4818D /* GDWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 427736891E2BD55100E59793 /* GDWindowViewController.m */; };
+		4B211F2C1EA8496900E4818D /* GDPerformanceMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = A53761581DB76D81000007B7 /* GDPerformanceMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B211F2D1EA8496900E4818D /* GDPerformanceView.h in Headers */ = {isa = PBXBuildFile; fileRef = A537615A1DB76D81000007B7 /* GDPerformanceView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B211F2E1EA8496900E4818D /* GDMarginLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = A5DAC07F1DB7B1A600AF26E6 /* GDMarginLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B211F2F1EA8496900E4818D /* GDWindowViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 427736881E2BD55100E59793 /* GDWindowViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B211F301EA8496900E4818D /* GDPerformanceMonitorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 428FE57D1E1D19D100F85C8B /* GDPerformanceMonitorProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		427736881E2BD55100E59793 /* GDWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWindowViewController.h; sourceTree = "<group>"; };
 		427736891E2BD55100E59793 /* GDWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWindowViewController.m; sourceTree = "<group>"; };
 		428FE57D1E1D19D100F85C8B /* GDPerformanceMonitorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDPerformanceMonitorProtocol.h; sourceTree = "<group>"; };
-		4BC488FC1EA2221B003AC1CF /* GDPerformanceView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GDPerformanceView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BC488FE1EA2221B003AC1CF /* GDPerformanceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDPerformanceView.h; sourceTree = "<group>"; };
-		4BC488FF1EA2221B003AC1CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B211F201EA8493B00E4818D /* GDPerformanceViewFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GDPerformanceViewFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B211F221EA8493B00E4818D /* GDPerformanceViewFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDPerformanceViewFramework.h; sourceTree = "<group>"; };
+		4B211F231EA8493B00E4818D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A53761501DB76D81000007B7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A53761511DB76D81000007B7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A53761521DB76D81000007B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -37,7 +42,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4BC488F81EA2221B003AC1CF /* Frameworks */ = {
+		4B211F1C1EA8493B00E4818D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,13 +52,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4BC488FD1EA2221B003AC1CF /* GDPerformanceView */ = {
+		4B211F211EA8493B00E4818D /* GDPerformanceViewFramework */ = {
 			isa = PBXGroup;
 			children = (
-				4BC488FE1EA2221B003AC1CF /* GDPerformanceView.h */,
-				4BC488FF1EA2221B003AC1CF /* Info.plist */,
+				4B211F221EA8493B00E4818D /* GDPerformanceViewFramework.h */,
+				4B211F231EA8493B00E4818D /* Info.plist */,
 			);
-			path = GDPerformanceView;
+			path = GDPerformanceViewFramework;
 			sourceTree = "<group>";
 		};
 		A537614F1DB76D81000007B7 /* GDPerformanceView */ = {
@@ -91,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				A537614F1DB76D81000007B7 /* GDPerformanceView */,
-				4BC488FD1EA2221B003AC1CF /* GDPerformanceView */,
+				4B211F211EA8493B00E4818D /* GDPerformanceViewFramework */,
 				A5C8CEBF1DB6203D008D8E15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,7 +104,7 @@
 		A5C8CEBF1DB6203D008D8E15 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4BC488FC1EA2221B003AC1CF /* GDPerformanceView.framework */,
+				4B211F201EA8493B00E4818D /* GDPerformanceViewFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,33 +112,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4BC488F91EA2221B003AC1CF /* Headers */ = {
+		4B211F1D1EA8493B00E4818D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BC489001EA2221B003AC1CF /* GDPerformanceView.h in Headers */,
+				4B211F241EA8493B00E4818D /* GDPerformanceViewFramework.h in Headers */,
+				4B211F2C1EA8496900E4818D /* GDPerformanceMonitor.h in Headers */,
+				4B211F2D1EA8496900E4818D /* GDPerformanceView.h in Headers */,
+				4B211F2E1EA8496900E4818D /* GDMarginLabel.h in Headers */,
+				4B211F2F1EA8496900E4818D /* GDWindowViewController.h in Headers */,
+				4B211F301EA8496900E4818D /* GDPerformanceMonitorProtocol.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4BC488FB1EA2221B003AC1CF /* GDPerformanceView */ = {
+		4B211F1F1EA8493B00E4818D /* GDPerformanceViewFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4BC489011EA2221B003AC1CF /* Build configuration list for PBXNativeTarget "GDPerformanceView" */;
+			buildConfigurationList = 4B211F251EA8493B00E4818D /* Build configuration list for PBXNativeTarget "GDPerformanceViewFramework" */;
 			buildPhases = (
-				4BC488F71EA2221B003AC1CF /* Sources */,
-				4BC488F81EA2221B003AC1CF /* Frameworks */,
-				4BC488F91EA2221B003AC1CF /* Headers */,
-				4BC488FA1EA2221B003AC1CF /* Resources */,
+				4B211F1B1EA8493B00E4818D /* Sources */,
+				4B211F1C1EA8493B00E4818D /* Frameworks */,
+				4B211F1D1EA8493B00E4818D /* Headers */,
+				4B211F1E1EA8493B00E4818D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GDPerformanceView;
-			productName = GDPerformanceView;
-			productReference = 4BC488FC1EA2221B003AC1CF /* GDPerformanceView.framework */;
+			name = GDPerformanceViewFramework;
+			productName = GDPerformanceViewFramework;
+			productReference = 4B211F201EA8493B00E4818D /* GDPerformanceViewFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -146,7 +156,7 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Gavrilov Daniil";
 				TargetAttributes = {
-					4BC488FB1EA2221B003AC1CF = {
+					4B211F1F1EA8493B00E4818D = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = SYGVQJCRE4;
 						ProvisioningStyle = Automatic;
@@ -166,13 +176,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4BC488FB1EA2221B003AC1CF /* GDPerformanceView */,
+				4B211F1F1EA8493B00E4818D /* GDPerformanceViewFramework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4BC488FA1EA2221B003AC1CF /* Resources */ = {
+		4B211F1E1EA8493B00E4818D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -182,14 +192,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4BC488F71EA2221B003AC1CF /* Sources */ = {
+		4B211F1B1EA8493B00E4818D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BC489041EA2230F003AC1CF /* GDPerformanceMonitor.m in Sources */,
-				4BC489051EA2230F003AC1CF /* GDPerformanceView.m in Sources */,
-				4BC489061EA2230F003AC1CF /* GDMarginLabel.m in Sources */,
-				4BC489071EA2230F003AC1CF /* GDWindowViewController.m in Sources */,
+				4B211F281EA8495E00E4818D /* GDPerformanceMonitor.m in Sources */,
+				4B211F291EA8495E00E4818D /* GDPerformanceView.m in Sources */,
+				4B211F2A1EA8495E00E4818D /* GDMarginLabel.m in Sources */,
+				4B211F2B1EA8495E00E4818D /* GDWindowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +225,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4BC489021EA2221B003AC1CF /* Debug */ = {
+		4B211F261EA8493B00E4818D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -226,11 +236,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = GDPerformanceView/Info.plist;
+				INFOPLIST_FILE = GDPerformanceViewFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lee.GDPerformanceView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.GDPerformanceViewFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -238,7 +248,7 @@
 			};
 			name = Debug;
 		};
-		4BC489031EA2221B003AC1CF /* Release */ = {
+		4B211F271EA8493B00E4818D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -249,11 +259,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = GDPerformanceView/Info.plist;
+				INFOPLIST_FILE = GDPerformanceViewFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lee.GDPerformanceView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.GDPerformanceViewFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -356,11 +366,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4BC489011EA2221B003AC1CF /* Build configuration list for PBXNativeTarget "GDPerformanceView" */ = {
+		4B211F251EA8493B00E4818D /* Build configuration list for PBXNativeTarget "GDPerformanceViewFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4BC489021EA2221B003AC1CF /* Debug */,
-				4BC489031EA2221B003AC1CF /* Release */,
+				4B211F261EA8493B00E4818D /* Debug */,
+				4B211F271EA8493B00E4818D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
